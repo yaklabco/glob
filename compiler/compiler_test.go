@@ -1,11 +1,12 @@
 package compiler
 
 import (
-	"github.com/gobwas/glob/match"
-	"github.com/gobwas/glob/match/debug"
-	"github.com/gobwas/glob/syntax/ast"
 	"reflect"
 	"testing"
+
+	"github.com/yaklabco/glob/match"
+	"github.com/yaklabco/glob/match/debug"
+	"github.com/yaklabco/glob/syntax/ast"
 )
 
 var separators = []rune{'.'}

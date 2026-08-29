@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/gobwas/glob/match"
-	"github.com/gobwas/glob/syntax/ast"
-	"github.com/gobwas/glob/util/runes"
+	"github.com/yaklabco/glob/match"
+	"github.com/yaklabco/glob/syntax/ast"
+	"github.com/yaklabco/glob/util/runes"
 )
 
 func optimizeMatcher(matcher match.Matcher) match.Matcher {
