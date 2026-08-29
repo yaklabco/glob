@@ -3,8 +3,9 @@ package lexer
 import (
 	"bytes"
 	"fmt"
-	"github.com/gobwas/glob/util/runes"
 	"unicode/utf8"
+
+	"github.com/yaklabco/glob/util/runes"
 )
 
 const (

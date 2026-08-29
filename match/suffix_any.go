@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	sutil "github.com/gobwas/glob/util/strings"
+	sutil "github.com/yaklabco/glob/util/strings"
 )
 
 type SuffixAny struct {
